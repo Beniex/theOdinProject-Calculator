@@ -11,7 +11,11 @@ function multiply(number1, number2){
 }
 
 function divide (number1, number2){
+    if (number2 == 0){
+        return 1234567890; 
+    } else {
     return number1/number2; 
+    }
 }
 
 function operate(array){
