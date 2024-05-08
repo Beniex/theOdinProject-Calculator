@@ -1,4 +1,56 @@
 body {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: aqua;
+    height: 100vh;
+    }
+
+#container{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    align-items:center;
+}
+
+#display{
+    background-color: bisque;
+    flex: 1;  
+    width: 95%;   
+    text-align: center;
+    margin : 12px; 
+   
+}
+
+#keyboard{
+    flex:4;
+    background-color: azure;
+
+    display: flex;
+    flex-direction: column;
+    align-content: stretch ;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 100%;
+    margin : 12px; 
+}
+
+#firstRow{
+    background-color: blue;
+}
+
+button{
+    flex: 1;
+    height: 100%;
+    width: 100%;
 }
