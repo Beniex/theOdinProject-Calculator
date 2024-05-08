@@ -27,7 +27,7 @@ body {
 }
 
 #keyboard{
-    flex:4;
+    flex:5;
     background-color: azure;
 
     display: flex;
@@ -45,10 +45,12 @@ body {
     margin : 12px; 
 }
 
-#firstRow{
-    background-color: blue;
+#equalKey{
+    flex: 3; 
 }
-
+#dotKey{
+    flex: 1;
+}
 button{
     flex: 1;
     height: 100%;
