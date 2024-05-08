@@ -118,8 +118,10 @@ function isTypingNumber2(){
 }
 function hasAPoint(number){
     let numberArray = String(number).split('');
+    console.log(numberArray);
+    console.log(numberArray.includes(".")); 
     if(numberArray.includes(".")){
-        return true 
+        return true ; 
     } else {
         return false; 
     }
